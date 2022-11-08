@@ -133,12 +133,4 @@ The WorkoutTracker app will allow users to create an account where they can logi
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
-#### [OPTIONAL:] Existing API Endpoints
-##### An API Of Ice And Fire
-- Base URL - [Placeholder](http://www.anapioficeandfire.com/api)
 
-   HTTP Verb | Endpoint | Description
-   ----------|----------|------------
-    `GET`    | /Excercise | get all ecxercises
-    `GET`    | /Stats | return stats as a list
-    `GET`    | /id/?name=name | return specific user by name
