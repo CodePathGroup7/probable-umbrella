@@ -85,18 +85,28 @@ The WorkoutTracker app will allow users to create an account where they can logi
 
 ## Schema 
 ### Models
-#### Post
+#### User
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | userId        | String   | unique id for the user post (default field) |
+   | profilePicture| Pointer to profile picture | Points to image storage to retrive the user's profile picture|
+   | progress      | Pointer to User progress | Points to model for User workout progress and stats|
+   | userName      | String   | user's username |
+   | phoneNumber   | String   | user's phone number |
+   | name          | String   | user's name  |
+#### Progress/Stats
+  
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | author        | Pointer to User| pointer to user model |
+   |    | Pointer to User progress | Points to model for User workout progress |
+   |  | String   | image caption by author |
+   | | Number   | number of comments that has been posted to an image |
+   | | Number   | number of likes for the post |
+   | | DateTime | date when post is created (default field) |
+   |  | DateTime | date when post is last updated (default field) |
+
 ### Networking
 #### List of network requests by screen
    - Example Home Feed Screen
