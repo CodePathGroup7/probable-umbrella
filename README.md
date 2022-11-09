@@ -110,7 +110,7 @@ The WorkoutTracker app will allow users to create an account where they can logi
          let query= PFQuery(className: “Search”) query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in if let error = error { 
              print(error.localizedDescription)
          } else if let searches = searches {
-             print("Searched \ (searches.count) searches.") request.httpMethod = “DELETE"Task.resume( )
+             print("Searched \(searches.count) searches.") request.httpMethod = “DELETE"Task.resume( )
              }               
              return         
          }
