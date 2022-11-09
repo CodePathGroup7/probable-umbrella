@@ -77,11 +77,6 @@ The WorkoutTracker app will allow users to create an account where they can logi
 [Add picture of your hand sketched wireframes in this section]
 <img src="https://i.imgur.com/6lSvOD4.jpg" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
-
-# WIP BELOW - PLEASE IGNORE
 
 ## Schema 
 ### Models
@@ -100,37 +95,23 @@ The WorkoutTracker app will allow users to create an account where they can logi
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | author        | Pointer to User| pointer to user model |
-   |    | Pointer to User progress | Points to model for User workout progress |
-   |  | String   | image caption by author |
+   | | Pointer to User progress | Points to model for User workout progress |
+   | | String   | image caption by author |
    | | Number   | number of comments that has been posted to an image |
    | | Number   | number of likes for the post |
    | | DateTime | date when post is created (default field) |
-   |  | DateTime | date when post is last updated (default field) |
+   | | DateTime | date when post is last updated (default field) |
 
 ### Networking
 #### List of network requests by screen
    - Example Home Feed Screen
       - (Read/GET) Query all posts where user is author
          ```swift
-         let query = PFQuery(className:"Post")
-         query.whereKey("author", equalTo: currentUser)
-         query.order(byDescending: "createdAt")
-         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-            if let error = error { 
-               print(error.localizedDescription)
-            } else if let posts = posts {
-               print("Successfully retrieved \(posts.count) posts.")
-           // TODO: Do something with posts...
-            }
+         let query= PFQuery(className: “Search”) query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in if let error = error { 
+             print(error.localizedDescription)
+         } else if let searches = searches {
+             print("Searched \ (searches.count) searches.") request.httpMethod = “DELETE"Task.resume( )
+             }               
+             return         
          }
          ```
-      - (Create/POST) Create a new like on a post
-      - (Delete) Delete existing like
-      - (Create/POST) Create a new comment on a post
-      - (Delete) Delete existing comment
-   - Create Post Screen
-      - (Create/POST) Create a new post object
-   - Profile Screen
-      - (Read/GET) Query logged in user object
-      - (Update/PUT) Update user profile image
-
