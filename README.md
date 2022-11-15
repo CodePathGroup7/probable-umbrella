@@ -15,12 +15,12 @@ The WorkoutTracker app will allow users to create an account where they can logi
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category: Fitness
-- **Mobile: This app is designed to be used on mobile devices although it would be possible to expand the platform to allow users to view their data on other devices
-- **Story: Users to can create an account and view detailed instructions on how to complete specific workouts along with the ability to track their progress.
-- **Market: Any Individual interested in working out.
-- **Habit: This app as often or unoften as the user wants.
-- **Scope: First we would start with a predetermined list of workouts. Then we could potentially broaden the scope of the project to suggest workouts based on previous user activity.
+- **Category:** Fitness
+- **Mobile:** This app is designed to be used on mobile devices although it would be possible to expand the platform to allow users to view their data on other devices
+- **Story:** Users to can create an account and view detailed instructions on how to complete specific workouts along with the ability to track their progress.
+- **Market:** Any Individual interested in working out.
+- **Habit:** This app as often or unoften as the user wants.
+- **Scope:** First we would start with a predetermined list of workouts. Then we could potentially broaden the scope of the project to suggest workouts based on previous user activity.
 
 ## Product Spec
 
@@ -29,12 +29,14 @@ The WorkoutTracker app will allow users to create an account where they can logi
 **Required Must-have Stories**
 
 * [1] User must have the ability to sign-in/create an account.
-* [2] Upon login the user is presented with the list of workouts.
+* [2] Upon login the user is presented with the main menu containing the following options: Account, Your Progreess, Workouts, Share, Logout.
 * [3] User must have the ability to navigate between tabs (workouts/stats).
 * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
 * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
 * [6] Upon completing the workout the user is returned to workouts page.
 * [7] User can view stats related to their account on the stats page.
+* [8] User can navigate to an Account Details Page from the main menu.
+* [9] User can view details such as Name and phone number from the Account Details Page.
 
 **Optional Nice-to-have Stories**
 
@@ -54,32 +56,62 @@ The WorkoutTracker app will allow users to create an account where they can logi
   * [6] Upon completing the workout the user is returned to workouts page.
 * User Stats Page
   * [7] User can view stats related to their account on the stats page.
-
+* Account Details Page
+  * [8] User can navigate to an Account Details Page from the main menu.
+  * [9] User can view details such as Name and phone number from the Account Details Page.
+ 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Workouts Tab
+* Main Menu Tab
 * Stats Tab
 
 **Flow Navigation** (Screen to Screen)
 
-* Forced Login Screen -> Main Workouts Screen
-* Main Workouts Screen -> Workout Instructions Screen
-
+* Forced Login Screen -> Main Menu Screen
+* Main Menu Screen -> Workouts Screen
+* Main Menu Screen -> Account Details Screen
+ 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="https://i.imgur.com/6lSvOD4.jpg" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userId        | String   | unique id for the user post (default field) |
+   | profilePicture| Pointer to profile picture | Points to image storage to retrive the user's profile picture|
+   | progress      | Pointer to User progress | Points to model for User workout progress and stats|
+   | userName      | String   | user's username |
+   | phoneNumber   | String   | user's phone number |
+   | name          | String   | user's name  |
+#### Progress/Stats
+  
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | author        | Pointer to User| pointer to user model |
+   | | Pointer to User progress | Points to model for User workout progress |
+   | | String   | image caption by author |
+   | | Number   | number of comments that has been posted to an image |
+   | | Number   | number of likes for the post |
+   | | DateTime | date when post is created (default field) |
+   | | DateTime | date when post is last updated (default field) |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+   - Example Home Feed Screen
+      - (Read/GET) Query all posts where user is author
+         ```swift
+         let query= PFQuery(className: “Search”) query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in if let error = error { 
+             print(error.localizedDescription)
+         } else if let searches = searches {
+             print("Searched \(searches.count) searches.") request.httpMethod = “DELETE"Task.resume( )
+             }               
+             return         
+         }
+         ```
