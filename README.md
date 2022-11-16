@@ -8,7 +8,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 1. [Schema](#Schema)
-1. [Progress Report](#Progress Report)
+1. [Progress](#Progress)
 
 ## Overview
 ### Description
@@ -117,7 +117,7 @@ The WorkoutTracker app will allow users to create an account where they can logi
          }
          ```
 
-## Progress Report
+## Progress
 
 ### Sprint #1
 
