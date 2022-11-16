@@ -8,7 +8,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 1. [Schema](#Schema)
-1. [Progress Report](#PRogress Report)
+1. [Progress Report](#Progress Report)
 
 ## Overview
 ### Description
