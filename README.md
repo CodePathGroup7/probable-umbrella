@@ -1,4 +1,4 @@
-Original App Design Project - README Template
+Gym App
 ===
 
 # WorkoutTracker
