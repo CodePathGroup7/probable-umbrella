@@ -29,7 +29,7 @@ The WorkoutTracker app will allow users to create an account where they can logi
 
 **Required Must-have Stories**
 
-* [1] User must have the ability to sign-in/create an account.
+* [x] User must have the ability to sign-in/create an account.
 * [2] Upon login the user is presented with the main menu containing the following options: Account, Your Progreess, Workouts, Share, Logout.
 * [3] User must have the ability to navigate between tabs (workouts/stats).
 * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
@@ -47,8 +47,8 @@ The WorkoutTracker app will allow users to create an account where they can logi
 ### 2. Screen Archetypes
 
 * Login Page
-   * [1] User must have the ability to sign-in/create an account.
-   * [2] Upon login the user is transitioned to a page with the list of workouts.
+   * [x] User must have the ability to sign-in/create an account.
+   * [x] Upon login the user is transitioned to a page with the list of workouts.
 * Workouts Page
    * [3] User must have the ability to navigate between tabs (workouts/stats).
    * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
