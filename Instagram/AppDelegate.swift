@@ -1,8 +1,7 @@
 //
 //  AppDelegate.swift
-//  Instagram
 //
-//  Created by Felix Rodriguez on 10/11/22.
+//  Created by team #7
 //
 
 import UIKit
