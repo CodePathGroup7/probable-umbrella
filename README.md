@@ -122,4 +122,7 @@ The WorkoutTracker app will allow users to create an account where they can logi
 ### Sprint #1
 
 For this week, we focused on adding the skeleton to the code base from a previously done project and we plan to work off of it to get our desired project we have a lot of pages to add and a database to perfect.There was a bug with the comment code, but we fixed it and have our database and login set up. Next week, we plan to get our pages added to the project.
+
+
+
 <img src="http://g.recordit.co/dHqyg9Owso.gif" width=250><br>
