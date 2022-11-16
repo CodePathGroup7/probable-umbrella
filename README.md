@@ -8,7 +8,7 @@ Original App Design Project - README Template
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 1. [Schema](#Schema)
-1. [Gifs](#Gifs)
+1. [Progress Report](#PRogress Report)
 
 ## Overview
 ### Description
@@ -117,7 +117,9 @@ The WorkoutTracker app will allow users to create an account where they can logi
          }
          ```
 
-## Gifs
+## Progress Report
 
 ### Sprint #1
+
+For this week, we focused on adding the skeleton to the code base from a previously done project and we plan to work off of it to get our desired project we have a lot of pages to add and a database to perfect.There was a bug with the comment code, but we fixed it and have our database and login set up. Next week, we plan to get our pages added to the project.
 <img src="http://g.recordit.co/dHqyg9Owso.gif" width=250><br>
