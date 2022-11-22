@@ -19,7 +19,7 @@ class FeedViewController: UIViewController {
         self.performSegue(withIdentifier: "FeedToWorkouts", sender: self)
     }
     @IBAction func FeedToAccountButton(_ sender: Any) {
-        self.performSegue(withIdentifier: "FeedToAccount", sender: self)
+        self.performSegue(withIdentifier: "FeedToAccountDetails", sender: self)
     }
     @IBAction func FeedToProgress(_ sender: Any) {
         self.performSegue(withIdentifier: "FeedToProgress", sender: self)
