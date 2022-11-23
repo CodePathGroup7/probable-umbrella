@@ -31,12 +31,12 @@ The WorkoutTracker app will allow users to create an account where they can logi
 
 * [x] User must have the ability to sign-in/create an account.
 * [2] Upon login the user is presented with the main menu containing the following options: Account, Your Progreess, Workouts, Share, Logout.
-* [3] User must have the ability to navigate between tabs (workouts/stats).
-* [4] User can tap on a workout icon and transtion to the Workout Instructions page.
+* [x] User must have the ability to navigate between tabs (workouts/stats).
+* [x] User can tap on a workout icon and transtion to the Workout Instructions page.
 * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
 * [6] Upon completing the workout the user is returned to workouts page.
 * [7] User can view stats related to their account on the stats page.
-* [8] User can navigate to an Account Details Page from the main menu.
+* [x] User can navigate to an Account Details Page from the main menu.
 * [9] User can view details such as Name and phone number from the Account Details Page.
 
 **Optional Nice-to-have Stories**
@@ -50,13 +50,13 @@ The WorkoutTracker app will allow users to create an account where they can logi
    * [x] User must have the ability to sign-in/create an account.
    * [x] Upon login the user is transitioned to a page with the list of workouts.
 * Workouts Page
-   * [3] User must have the ability to navigate between tabs (workouts/stats).
+   * [x] User must have the ability to navigate between tabs (workouts/stats).
    * [4] User can tap on a workout icon and transtion to the Workout Instructions page.
 * Workout Instructions Page
-  * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
-  * [6] Upon completing the workout the user is returned to workouts page.
+  * [x] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
+  * [x] Upon completing the workout the user is returned to workouts page.
 * User Stats Page
-  * [7] User can view stats related to their account on the stats page.
+  * [x] User can view stats related to their account on the stats page.
 * Account Details Page
   * [8] User can navigate to an Account Details Page from the main menu.
   * [9] User can view details such as Name and phone number from the Account Details Page.
@@ -122,6 +122,14 @@ The WorkoutTracker app will allow users to create an account where they can logi
 ### Sprint #1
 
 For this week, we focused on adding the skeleton to the code base from a previously done project and we plan to work off of it to get our desired project we have a lot of pages to add and a database to perfect.There was a bug with the comment code, but we fixed it and have our database and login set up. Next week, we plan to get our pages added to the project.
+
+
+
+<img src="http://g.recordit.co/dHqyg9Owso.gif" width=250><br>
+
+### Sprint #2
+
+For this week, we focused on adding the pages and a menu to navigate across the app. So we continued working on from what we started with and made a lot of progress with the frontend portion of the application. The hard part will be the backend and getting the table views to cooperate and adding the assests. The basic structure of our project is almost built up, and all we need is to fill in the blanks. Next week, we'll continue on polishing the frontend part and begin looking into the table views and database. Along with figureing out a way of populating our database.
 
 
 
