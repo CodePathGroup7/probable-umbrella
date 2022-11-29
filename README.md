@@ -133,4 +133,12 @@ For this week, we focused on adding the pages and a menu to navigate across the 
 
 
 
+<img src="http://g.recordit.co/fEAqLQMBIw.gif" width=250><br
+
+### Sprint #3
+
+Filler Text 
+
+
+
 <img src="http://g.recordit.co/fEAqLQMBIw.gif" width=250><br>
