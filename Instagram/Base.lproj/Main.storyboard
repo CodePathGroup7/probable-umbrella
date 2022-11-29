@@ -91,7 +91,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-ZH-ScV">
-                                <rect key="frame" x="16" y="156" width="343" height="40"/>
+                                <rect key="frame" x="16" y="191" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="3LV-a2-N9n"/>
                                     <constraint firstAttribute="height" constant="40" id="GUi-ER-YKp"/>
@@ -104,7 +104,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJl-ok-YwD">
-                                <rect key="frame" x="16" y="244" width="343" height="40"/>
+                                <rect key="frame" x="16" y="279" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="5LG-hf-Zv0"/>
                                     <constraint firstAttribute="height" constant="40" id="GWU-L8-9Dl"/>
@@ -117,7 +117,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCD-Of-cma">
-                                <rect key="frame" x="16" y="332" width="343" height="40"/>
+                                <rect key="frame" x="16" y="367" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="qL8-qH-waF"/>
                                     <constraint firstAttribute="width" constant="343" id="tPz-CQ-pBf"/>
@@ -129,7 +129,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-ua-1NX">
-                                <rect key="frame" x="16" y="415" width="343" height="40"/>
+                                <rect key="frame" x="16" y="450" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="343" id="TyN-qd-6eg"/>
                                     <constraint firstAttribute="height" constant="40" id="lSd-mN-WgC"/>
@@ -267,17 +267,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-<<<<<<< HEAD
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q4q-00-Uu9">
-                                <rect key="frame" x="100" y="300" width="174" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0h-xT-fyk">
-                                <rect key="frame" x="177" y="238" width="21" height="27"/>
-=======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0h-xT-fyk">
                                 <rect key="frame" x="166" y="222" width="42" height="54"/>
->>>>>>> d7139b9 (Added constraints to account page)
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -295,7 +286,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="ProgressBar" destination="q4q-00-Uu9" id="kEN-Oo-oYb"/>
                         <outlet property="ProgressNumber" destination="t0h-xT-fyk" id="ewf-G3-S3T"/>
                     </connections>
                 </viewController>
