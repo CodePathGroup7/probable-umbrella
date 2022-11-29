@@ -36,7 +36,7 @@ class ProgressViewController: UIViewController {
                 print(progress)
                 //convert progress to string
                 let progressString = String(describing: progress)
-                //set progress number label to progress
+                //set progress number label to progress as a percentage
                 ProgressNumber.text = progressString
                 //set progress bar to progress to percentage based on 10 workouts
                 ProgressBar.progress = Float(progressString)! / 10

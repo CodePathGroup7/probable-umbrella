@@ -89,9 +89,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-ZH-ScV">
-                                <rect key="frame" x="16" y="116" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4f-ZH-ScV">
+                                <rect key="frame" x="16" y="156" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="3LV-a2-N9n"/>
+                                    <constraint firstAttribute="height" constant="40" id="GUi-ER-YKp"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Account"/>
                                 <connections>
@@ -99,9 +102,12 @@
                                     <segue destination="L4i-hg-Xly" kind="presentation" identifier="FeedToAccountDetails" id="5PK-mf-BNe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJl-ok-YwD">
-                                <rect key="frame" x="16" y="238" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJl-ok-YwD">
+                                <rect key="frame" x="16" y="244" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="5LG-hf-Zv0"/>
+                                    <constraint firstAttribute="height" constant="40" id="GWU-L8-9Dl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Your Progress"/>
                                 <connections>
@@ -109,18 +115,24 @@
                                     <segue destination="CzT-I9-Puo" kind="presentation" identifier="FeedToProgress" id="JyR-Jo-AnH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCD-Of-cma">
-                                <rect key="frame" x="16" y="362" width="343" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCD-Of-cma">
+                                <rect key="frame" x="16" y="332" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qL8-qH-waF"/>
+                                    <constraint firstAttribute="width" constant="343" id="tPz-CQ-pBf"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Workouts"/>
                                 <connections>
                                     <segue destination="BrT-2I-hQm" kind="presentation" identifier="FeedToWorkouts" id="MJp-Jy-kyw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-ua-1NX">
-                                <rect key="frame" x="16" y="483" width="343" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-ua-1NX">
+                                <rect key="frame" x="16" y="415" width="343" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="TyN-qd-6eg"/>
+                                    <constraint firstAttribute="height" constant="40" id="lSd-mN-WgC"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Share"/>
                                 <connections>
@@ -131,6 +143,20 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5DL-ce-ftv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5DL-ce-ftv" firstAttribute="trailing" secondItem="IkU-ua-1NX" secondAttribute="trailing" constant="16" id="03A-pK-hi4"/>
+                            <constraint firstItem="gJl-ok-YwD" firstAttribute="top" secondItem="y4f-ZH-ScV" secondAttribute="bottom" constant="48" id="2y2-b9-sUI"/>
+                            <constraint firstItem="pCD-Of-cma" firstAttribute="leading" secondItem="5DL-ce-ftv" secondAttribute="leading" constant="16" id="4wS-Rg-IFX"/>
+                            <constraint firstItem="5DL-ce-ftv" firstAttribute="trailing" secondItem="pCD-Of-cma" secondAttribute="trailing" constant="16" id="Ey7-Gr-oS9"/>
+                            <constraint firstItem="y4f-ZH-ScV" firstAttribute="leading" secondItem="5DL-ce-ftv" secondAttribute="leading" constant="16" id="N1h-hj-SRt"/>
+                            <constraint firstItem="IkU-ua-1NX" firstAttribute="top" secondItem="pCD-Of-cma" secondAttribute="bottom" constant="43" id="RYu-uc-gqr"/>
+                            <constraint firstItem="y4f-ZH-ScV" firstAttribute="top" secondItem="5DL-ce-ftv" secondAttribute="top" constant="100" id="azU-dR-3We"/>
+                            <constraint firstItem="5DL-ce-ftv" firstAttribute="trailing" secondItem="gJl-ok-YwD" secondAttribute="trailing" constant="16" id="d3n-Q6-86g"/>
+                            <constraint firstItem="5DL-ce-ftv" firstAttribute="trailing" secondItem="y4f-ZH-ScV" secondAttribute="trailing" constant="16" id="hpL-z7-Fm8"/>
+                            <constraint firstItem="IkU-ua-1NX" firstAttribute="leading" secondItem="5DL-ce-ftv" secondAttribute="leading" constant="16" id="rxr-Kt-HNC"/>
+                            <constraint firstItem="gJl-ok-YwD" firstAttribute="leading" secondItem="5DL-ce-ftv" secondAttribute="leading" constant="16" id="wfo-na-0WA"/>
+                            <constraint firstItem="pCD-Of-cma" firstAttribute="top" secondItem="gJl-ok-YwD" secondAttribute="bottom" constant="48" id="yuN-cj-xZo"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="c5J-gu-x5y">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="pxW-gh-jaS">
@@ -222,17 +248,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0h-xT-fyk">
-                                <rect key="frame" x="166" y="128" width="42" height="54"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q4q-00-Uu9">
+                                <rect key="frame" x="100" y="300" width="174" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0h-xT-fyk">
+                                <rect key="frame" x="177" y="238" width="21" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q4q-00-Uu9">
-                                <rect key="frame" x="112" y="284" width="150" height="4"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cle-58-zZG">
+                                <rect key="frame" x="189" y="239" width="27" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MgO-CN-7nw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
