@@ -39,7 +39,7 @@ class ProgressViewController: UIViewController {
                 //set progress number label to progress as a percentage
                 ProgressNumber.text = progressString
                 //set progress bar to progress to percentage based on 10 workouts
-                ProgressBar.progress = Float(progressString)! / 10
+                //ProgressBar.progress = (Float(progressString) ?? 0) / 10
                 
           }
         }
