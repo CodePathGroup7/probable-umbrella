@@ -141,4 +141,4 @@ This week was the beginning for finals week for some of us and we were not able 
 
 
 
-<img src="http://g.recordit.co/9P43h938Ep.gif" width=250><br>
+<img src="http://g.recordit.co/9P43h938Ep.gif" width=250><br> <img src="http://g.recordit.co/VSIVJdOwZ5.gif" width=250><br>
