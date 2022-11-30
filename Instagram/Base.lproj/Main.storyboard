@@ -52,7 +52,8 @@
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign In">
-                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wLz-wK-bCI"/>
@@ -71,7 +72,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign Up">
-                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
+                                    <color key="baseBackgroundColor" systemColor="labelColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vk9-Cd-eKT"/>
@@ -80,11 +82,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-wR-a3v">
                                 <rect key="frame" x="137" y="537" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QOW-Tr-8KY">
                                 <rect key="frame" x="29" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XaF-4M-XWx">
@@ -94,7 +96,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="passwordField" destination="PyC-Kd-PRH" id="hRt-kE-JrO"/>
@@ -123,8 +125,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Account" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
                                     </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="FeedToAccountButton:" destination="7zr-Bz-KQq" eventType="touchUpInside" id="Eh7-Sp-yEK"/>
@@ -140,8 +143,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Your Progress" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
                                     </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="FeedToProgress:" destination="7zr-Bz-KQq" eventType="touchUpInside" id="bFg-g2-1mu"/>
@@ -157,8 +161,9 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Workouts" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="labelColor"/>
                                     </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="BrT-2I-hQm" kind="presentation" identifier="FeedToWorkouts" id="MJp-Jy-kyw"/>
@@ -175,6 +180,7 @@
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
+                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="FeedToShareButton:" destination="7zr-Bz-KQq" eventType="touchUpInside" id="nWq-zz-CZq"/>
@@ -183,22 +189,22 @@
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iDl-N1-UsQ">
                                 <rect key="frame" x="137" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-Ja-e25">
                                 <rect key="frame" x="29" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mZ8-lB-GN8">
                                 <rect key="frame" x="245" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5DL-ce-ftv"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5DL-ce-ftv" firstAttribute="trailing" secondItem="IkU-ua-1NX" secondAttribute="trailing" constant="16" id="03A-pK-hi4"/>
                             <constraint firstItem="gJl-ok-YwD" firstAttribute="top" secondItem="y4f-ZH-ScV" secondAttribute="bottom" constant="50" id="2y2-b9-sUI"/>
@@ -277,6 +283,7 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ejS-62-Mh8">
                                 <rect key="frame" x="70" y="57" width="235" height="235"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="235" id="CY8-fD-o0V"/>
                                     <constraint firstAttribute="width" constant="235" id="KZh-wd-JvA"/>
@@ -286,22 +293,22 @@
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FgH-s0-Hgl">
                                 <rect key="frame" x="137" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6vS-Bo-KsB">
                                 <rect key="frame" x="29" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZCg-fG-p7p">
                                 <rect key="frame" x="245" y="537" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hce-s9-Nuc"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="0MR-Wc-yQU" firstAttribute="leading" secondItem="hce-s9-Nuc" secondAttribute="leading" constant="8" id="2Gb-dJ-DXE"/>
                             <constraint firstItem="0MR-Wc-yQU" firstAttribute="top" secondItem="ejS-62-Mh8" secondAttribute="bottom" constant="25" id="A8T-Be-r2B"/>
@@ -369,17 +376,17 @@
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-Wt-Fjf">
                                 <rect key="frame" x="137" y="487" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ps1-S9-uDG">
                                 <rect key="frame" x="29" y="487" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-Qk-z6r">
                                 <rect key="frame" x="245" y="487" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                         </subviews>
