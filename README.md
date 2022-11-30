@@ -36,8 +36,8 @@ The WorkoutTracker app will allow users to create an account where they can logi
 * [5] User can view the workout details on the instructions page and have the ability to mark the workout as completed.
 * [6] Upon completing the workout the user is returned to workouts page.
 * [7] User can view stats related to their account on the stats page.
-* [8] User can navigate to an Account Details Page from the main menu.
-* [9] User can view details such as Name and phone number from the Account Details Page.
+* [x] User can navigate to an Account Details Page from the main menu.
+* [x] User can view details such as Name and phone number from the Account Details Page.
 
 **Optional Nice-to-have Stories**
 
@@ -137,8 +137,8 @@ For this week, we focused on adding the pages and a menu to navigate across the 
 
 ### Sprint #3
 
-Filler Text 
+This week was the beginning for finals week for some of us and we were not able to get a lot of what we wanted done, but we did get a nice progress update with the progress, acount, menu, and login pages. The backend still needs some more tweaking, but once we have the table views done, we should be in the home strech.
 
 
 
-<img src="http://g.recordit.co/fEAqLQMBIw.gif" width=250><br>
+<img src="http://g.recordit.co/9P43h938Ep.gif" width=250><br>
