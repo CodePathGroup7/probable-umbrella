@@ -82,17 +82,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-wR-a3v">
-                                <rect key="frame" x="135" y="535" width="100" height="100"/>
+                                <rect key="frame" x="133" y="533" width="102" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QOW-Tr-8KY">
-                                <rect key="frame" x="27" y="535" width="100" height="100"/>
+                                <rect key="frame" x="26" y="533" width="99" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XaF-4M-XWx">
-                                <rect key="frame" x="243" y="535" width="101" height="100"/>
+                                <rect key="frame" x="243" y="533" width="99" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -190,17 +190,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iDl-N1-UsQ">
-                                <rect key="frame" x="135" y="535" width="100" height="100"/>
+                                <rect key="frame" x="133" y="533" width="102" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-Ja-e25">
-                                <rect key="frame" x="28" y="535" width="100" height="100"/>
+                                <rect key="frame" x="28" y="533" width="98" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mZ8-lB-GN8">
-                                <rect key="frame" x="244" y="535" width="100" height="100"/>
+                                <rect key="frame" x="244" y="533" width="98" height="102"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -294,17 +294,17 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="regular"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FgH-s0-Hgl">
-                                <rect key="frame" x="136" y="492" width="100" height="100"/>
+                                <rect key="frame" x="135" y="492" width="99" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6vS-Bo-KsB">
-                                <rect key="frame" x="27" y="492" width="100" height="100"/>
+                                <rect key="frame" x="27" y="492" width="99" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZCg-fG-p7p">
-                                <rect key="frame" x="243" y="492" width="100" height="100"/>
+                                <rect key="frame" x="241" y="492" width="102" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -377,17 +377,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-Wt-Fjf">
-                                <rect key="frame" x="136" y="486" width="100" height="100"/>
+                                <rect key="frame" x="135" y="485" width="99" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ps1-S9-uDG">
-                                <rect key="frame" x="27" y="486" width="100" height="100"/>
+                                <rect key="frame" x="27" y="485" width="99" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-Qk-z6r">
-                                <rect key="frame" x="243" y="486" width="100" height="100"/>
+                                <rect key="frame" x="241" y="485" width="102" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -403,7 +403,7 @@
             </objects>
             <point key="canvasLocation" x="2365.5999999999999" y="63.546798029556655"/>
         </scene>
-        <!--Workouts View Controller-->
+        <!--Workouts-->
         <scene sceneID="jWl-4D-j3D">
             <objects>
                 <tableViewController id="Bjr-XI-OIB" customClass="WorkoutsViewController" customModule="GymApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -412,18 +412,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WorkoutCell" rowHeight="375" id="2RU-Hd-QTX" customClass="WorkoutCell" customModule="GymApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="375" height="375"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="WorkoutCell" rowHeight="400" id="2RU-Hd-QTX" customClass="WorkoutCell" customModule="GymApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="375" height="400"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2RU-Hd-QTX" id="h5e-Lc-9v6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilH-8v-PUg">
-                                            <rect key="frame" x="20" y="11" width="174" height="134"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zR-OU-K7a">
+                                            <rect key="frame" x="213" y="15.999999999999998" width="147" height="27.333333333333329"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tu-E5-VR0">
+                                            <rect key="frame" x="10" y="147" width="355" height="243"/>
+                                            <color key="backgroundColor" systemColor="labelColor"/>
+                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
+                                            <color key="textColor" systemColor="systemBackgroundColor"/>
+                                            <color key="highlightedColor" systemColor="labelColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ilH-8v-PUg">
+                                            <rect key="frame" x="10" y="5" width="195" height="134"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="134" id="UHc-Sv-Ue2"/>
+                                            </constraints>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfb-dt-653">
-                                            <rect key="frame" x="202" y="33" width="153" height="35"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfb-dt-653">
+                                            <rect key="frame" x="210" y="82" width="160" height="57"/>
                                             <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="filled" title="Finish Workout">
@@ -434,28 +450,22 @@
                                                 <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ViK-7Q-iS4"/>
                                             </connections>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Workout Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9zR-OU-K7a">
-                                            <rect key="frame" x="202" y="85" width="153" height="37"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Workout Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tu-E5-VR0">
-                                            <rect key="frame" x="20" y="153" width="335" height="205"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" systemColor="labelColor"/>
-                                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
-                                            <color key="textColor" systemColor="systemBackgroundColor"/>
-                                            <color key="highlightedColor" systemColor="labelColor"/>
-                                        </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="topMargin" constant="5" id="88d-r3-Bti"/>
-                                        <constraint firstItem="Jfb-dt-653" firstAttribute="leading" secondItem="ilH-8v-PUg" secondAttribute="trailing" constant="5" id="beD-oU-WHa"/>
-                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="leading" secondItem="h5e-Lc-9v6" secondAttribute="leadingMargin" constant="5" id="bv0-bH-dvo"/>
-                                        <constraint firstItem="Jfb-dt-653" firstAttribute="trailing" secondItem="h5e-Lc-9v6" secondAttribute="trailingMargin" constant="5" id="clt-Pa-m1a"/>
-                                        <constraint firstItem="Jfb-dt-653" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="topMargin" constant="10" id="iG7-jK-X1v"/>
+                                        <constraint firstAttribute="trailing" secondItem="5tu-E5-VR0" secondAttribute="trailing" constant="10" id="9nm-bg-ROl"/>
+                                        <constraint firstItem="5tu-E5-VR0" firstAttribute="trailing" secondItem="h5e-Lc-9v6" secondAttribute="trailingMargin" constant="10" id="KE2-ru-qkK"/>
+                                        <constraint firstItem="9zR-OU-K7a" firstAttribute="trailing" secondItem="h5e-Lc-9v6" secondAttribute="trailingMargin" constant="5" id="M2o-6f-gcn"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="leading" secondItem="ilH-8v-PUg" secondAttribute="trailing" constant="5" id="R44-gF-ckb"/>
+                                        <constraint firstItem="5tu-E5-VR0" firstAttribute="leading" secondItem="h5e-Lc-9v6" secondAttribute="leading" constant="10" id="RRr-B4-XTZ"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="top" secondItem="9zR-OU-K7a" secondAttribute="bottom" constant="38.666666666666671" id="RWH-hf-nt3"/>
+                                        <constraint firstItem="9zR-OU-K7a" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="topMargin" constant="5" id="SBU-Eb-YDw"/>
+                                        <constraint firstItem="9zR-OU-K7a" firstAttribute="leading" secondItem="ilH-8v-PUg" secondAttribute="trailing" constant="8" symbolic="YES" id="TCU-Pa-SjG"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="bottom" secondItem="ilH-8v-PUg" secondAttribute="bottom" id="TIa-bm-8EF"/>
+                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="top" constant="5" id="fG7-i9-cH6"/>
+                                        <constraint firstAttribute="trailing" secondItem="Jfb-dt-653" secondAttribute="trailing" constant="5" id="fLE-sy-zWV"/>
+                                        <constraint firstItem="5tu-E5-VR0" firstAttribute="top" secondItem="ilH-8v-PUg" secondAttribute="bottom" constant="8" id="jGT-Hk-1gG"/>
+                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="leading" secondItem="h5e-Lc-9v6" secondAttribute="leading" constant="10" id="mBH-uy-bxm"/>
+                                        <constraint firstAttribute="bottom" secondItem="5tu-E5-VR0" secondAttribute="bottom" constant="10" id="oXj-YE-KU4"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -471,13 +481,13 @@
                             <outlet property="delegate" destination="Bjr-XI-OIB" id="nGu-gp-b32"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Workouts View Controller" id="RM5-VB-GqY"/>
+                    <navigationItem key="navigationItem" title="Workouts" id="RM5-VB-GqY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zf8-9c-1g0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3485.5999999999999" y="804.67980295566508"/>
         </scene>
-        <!--Share View Controller-->
+        <!--Share-->
         <scene sceneID="Lmn-af-6jV">
             <objects>
                 <tableViewController id="ZaX-dO-dGi" customClass="ShareViewController" customModule="GymApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -500,7 +510,7 @@
                             <outlet property="delegate" destination="ZaX-dO-dGi" id="nUW-zG-NcC"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Share View Controller" id="J0v-kj-ATu"/>
+                    <navigationItem key="navigationItem" title="Share" id="J0v-kj-ATu"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lba-E8-JLW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

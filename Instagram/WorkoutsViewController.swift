@@ -38,14 +38,13 @@ class WorkoutsViewController: UIViewController, UITableViewDelegate, UITableView
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "WorkoutCell") as! WorkoutCell
-        let workout = workouts[indexPath.section]
+        let workout = workouts[indexPath.row]
         
         cell.workoutLabel.text = workout["name"]
         cell.descriptionLabel.text = workout["desc"]
         
         let url = URL(string: workout["img"]!)
         cell.workoutView.af.setImage(withURL: url!)
-        
         return cell
     }
     
