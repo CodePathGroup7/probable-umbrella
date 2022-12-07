@@ -82,17 +82,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-wR-a3v">
-                                <rect key="frame" x="136" y="536" width="100" height="100"/>
+                                <rect key="frame" x="135" y="535" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QOW-Tr-8KY">
-                                <rect key="frame" x="28" y="536" width="100" height="100"/>
+                                <rect key="frame" x="27" y="535" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XaF-4M-XWx">
-                                <rect key="frame" x="244" y="536" width="100" height="100"/>
+                                <rect key="frame" x="243" y="535" width="101" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -190,17 +190,17 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iDl-N1-UsQ">
-                                <rect key="frame" x="136" y="536" width="100" height="100"/>
+                                <rect key="frame" x="135" y="535" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="t2S-Ja-e25">
-                                <rect key="frame" x="28" y="536" width="100" height="100"/>
+                                <rect key="frame" x="28" y="535" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mZ8-lB-GN8">
-                                <rect key="frame" x="244" y="536" width="100" height="100"/>
+                                <rect key="frame" x="244" y="535" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -294,17 +294,17 @@
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="regular"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FgH-s0-Hgl">
-                                <rect key="frame" x="136" y="493" width="100" height="100"/>
+                                <rect key="frame" x="136" y="492" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6vS-Bo-KsB">
-                                <rect key="frame" x="28" y="493" width="100" height="100"/>
+                                <rect key="frame" x="27" y="492" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZCg-fG-p7p">
-                                <rect key="frame" x="244" y="493" width="100" height="100"/>
+                                <rect key="frame" x="243" y="492" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -377,17 +377,17 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="x.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vHQ-Wt-Fjf">
-                                <rect key="frame" x="136" y="487" width="100" height="100"/>
+                                <rect key="frame" x="136" y="486" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="labelColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="e.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ps1-S9-uDG">
-                                <rect key="frame" x="28" y="487" width="100" height="100"/>
+                                <rect key="frame" x="27" y="486" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="book.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PPu-Qk-z6r">
-                                <rect key="frame" x="244" y="487" width="100" height="100"/>
+                                <rect key="frame" x="243" y="486" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
@@ -412,20 +412,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="375" id="2RU-Hd-QTX">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WorkoutCell" rowHeight="375" id="2RU-Hd-QTX" customClass="WorkoutCell" customModule="GymApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="375" height="375"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2RU-Hd-QTX" id="h5e-Lc-9v6">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilH-8v-PUg">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ilH-8v-PUg">
                                             <rect key="frame" x="20" y="11" width="174" height="134"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jfb-dt-653">
                                             <rect key="frame" x="202" y="33" width="153" height="35"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="filled" title="Finish Workout">
@@ -452,7 +450,20 @@
                                             <color key="highlightedColor" systemColor="labelColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="topMargin" constant="5" id="88d-r3-Bti"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="leading" secondItem="ilH-8v-PUg" secondAttribute="trailing" constant="5" id="beD-oU-WHa"/>
+                                        <constraint firstItem="ilH-8v-PUg" firstAttribute="leading" secondItem="h5e-Lc-9v6" secondAttribute="leadingMargin" constant="5" id="bv0-bH-dvo"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="trailing" secondItem="h5e-Lc-9v6" secondAttribute="trailingMargin" constant="5" id="clt-Pa-m1a"/>
+                                        <constraint firstItem="Jfb-dt-653" firstAttribute="top" secondItem="h5e-Lc-9v6" secondAttribute="topMargin" constant="10" id="iG7-jK-X1v"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="5tu-E5-VR0" id="UUw-7x-2UQ"/>
+                                    <outlet property="finishButton" destination="Jfb-dt-653" id="tev-cL-pQH"/>
+                                    <outlet property="workoutLabel" destination="9zR-OU-K7a" id="sTN-ce-PoJ"/>
+                                    <outlet property="workoutView" destination="ilH-8v-PUg" id="fQC-eb-5cb"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

@@ -21,6 +21,7 @@
 		152D892B28F6657F00E112A6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D892A28F6657F00E112A6 /* CameraViewController.swift */; };
 		152D892D28F672C500E112A6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D892C28F672C400E112A6 /* PostCell.swift */; };
 		158EBC9128FF5F5200CADB71 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158EBC9028FF5F5100CADB71 /* CommentCell.swift */; };
+		5B5E84B029400489003D27C1 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E84AF29400489003D27C1 /* WorkoutCell.swift */; };
 		5D71C3F2190DB5D38A5A3221 /* Pods_GymApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C4106FE5D67E27899802F7 /* Pods_GymApp.framework */; };
 		9E281E4B292C0C7C00839095 /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E281E4A292C0C7C00839095 /* WorkoutsViewController.swift */; };
 		9ECDA91C292C2C460016456D /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDA91B292C2C450016456D /* AccountViewController.swift */; };
@@ -64,6 +65,7 @@
 		152D892C28F672C400E112A6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		158EBC9028FF5F5100CADB71 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		4DC39EBB237CB9DBB68E07B8 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
+		5B5E84AF29400489003D27C1 /* WorkoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
 		85E038953174F22C20831F8D /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		88C4106FE5D67E27899802F7 /* Pods_GymApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E281E4A292C0C7C00839095 /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				9ECDA91B292C2C450016456D /* AccountViewController.swift */,
 				9ECDA91D292C2CC90016456D /* ProgressViewController.swift */,
 				9ECDA91F292C2CF20016456D /* ShareViewController.swift */,
+				5B5E84AF29400489003D27C1 /* WorkoutCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				152D892728F64F4000E112A6 /* LoginViewController.swift in Sources */,
 				9ECDA920292C2CF20016456D /* ShareViewController.swift in Sources */,
 				152D892B28F6657F00E112A6 /* CameraViewController.swift in Sources */,
+				5B5E84B029400489003D27C1 /* WorkoutCell.swift in Sources */,
 				152D88F328F6359800E112A6 /* AppDelegate.swift in Sources */,
 				152D892928F64F6600E112A6 /* FeedViewController.swift in Sources */,
 				9E281E4B292C0C7C00839095 /* WorkoutsViewController.swift in Sources */,
