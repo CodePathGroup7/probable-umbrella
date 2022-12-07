@@ -146,3 +146,5 @@ This week was the beginning for finals week for some of us and we were not able 
 ### Sprint #4
 
 We made some progress, but personal trauma did hurt a little progress. We still continued to worke together. 
+
+<img src="http://g.recordit.co/x6k9zYNEqo.gif" width=250><br>
